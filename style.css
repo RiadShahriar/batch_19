@@ -1,0 +1,75 @@
+body{
+    font-family: 'Tinos', serif;
+    margin: 0;
+    background-image: url(./top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    margin-bottom: 3%;
+}
+.halfwidth{
+    width: 50%;
+    padding: 25px;
+    padding-left: 100px;
+    
+}
+.halfwidth img{
+    width: 90%;
+  
+}
+.halfwidth p{
+    
+    background-repeat: no-repeat;
+    background-image: url(./exp-bg.png);
+
+}
+h1{
+    font-size: 65px;
+    color: rgb(240, 139, 6);
+    margin-left: 3%;
+}
+h2{
+    text-align: center;
+ text-transform: capitalize;
+    font-size: 50px;
+}
+h3{
+    color: rgb(184, 6, 41);
+    text-transform: capitalize;
+    font-size: 30px;
+}
+span{
+    color: rgb(243, 6, 53);
+}
+b{
+    font-size: 26px;
+    color: slategray;
+}
+.halfwidth a{
+    font-size: 40px;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: rgb(13, 148, 233);
+}
+.halfwidth a:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.memories{
+    width: 20%;
+  height: 350px;
+
+}
+.memories img{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.memories img:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+  
